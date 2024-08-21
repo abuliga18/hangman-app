@@ -1,0 +1,22 @@
+.letterButtons {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.letterButton {
+    margin: 3px;
+    width: 40px;
+    height: 35px;
+    border: none;
+    background-color: rgb(186, 101, 186);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.letterButton:disabled {
+    background-color: rgb(205, 154, 205);
+    cursor: not-allowed;
+}

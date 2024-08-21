@@ -1,0 +1,54 @@
+.App {
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 300px;
+  padding: 100px;
+  position: relative;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  max-width: 50%; /* Restrict the maximum width to 50% of the container */
+  min-width: 300px; /* Set a minimum width to ensure it’s not too small */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordDisplay {
+  margin-bottom: 20px;
+}
+
+#hint {
+  color: rgb(205, 154, 205);
+}
+
+#guesses {
+  color:rgb(126, 59, 126);
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#guessSpan {
+  background-color: rgb(205, 154, 205);
+  padding: 7px;
+  color: white;
+  border-radius: 20px;
+}
+
+#hintSpan {
+  font-style: italic;
+}
+
+

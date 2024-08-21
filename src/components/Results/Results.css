@@ -1,0 +1,28 @@
+.result {
+    position: fixed;
+    background-color: rgb(126, 59, 126);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+}
+
+.result img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.resultButton {
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(126, 59, 126) ;
+}

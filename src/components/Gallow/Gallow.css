@@ -1,0 +1,10 @@
+.gallow {
+   
+    
+}
+
+.gallow img{
+    width: 100%; /* Scale image to fit container width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Ensure the image doesn’t exceed container height */
+}
