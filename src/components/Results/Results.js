@@ -9,7 +9,7 @@ function Results ({isGameWon, word, handleClick}) {
                 <img src="/images/victory.gif" alt="Congratulations! You Won!"/>
                 <h2>Congratulations!</h2> 
                 <p>You guessed the correct word.</p>
-                <button onClick={handleClick}>PLAY AGAIN</button>
+                <button className="resultButton" onClick={handleClick}>PLAY AGAIN</button>
             </div>
         )   
     } else {
